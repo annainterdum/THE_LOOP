@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f3f1f1;
+}
+body {
+    font-family: Montserrat Alternates, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+}
+.header a:nth-child(4) {
+    font-weight: bold;
+    font-size: 24px;
+}
+.box {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+.main-container h1 {
+    font-size: 30px;
+    padding-top: 150px;
+}
+.main-container h2 {
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.main-container a {
+    text-decoration: none;
+    background: #D7B399;
+    color: #f3f1f1;
+}
+.models-button {
+    padding: 30px 30px 35px 20px;
+    margin-top: 30px;
+    background: #D7B399;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container-img img {
+    width: 100%;
+}
+.main-container-prices {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:50px;
+    right: 150px;
+}
+.main-container-prices span:first-child {
+    font-size: 24px;
+    text-decoration-line: line-through;
+}
+.main-container-prices span:last-child {
+    font-size: 42px;
+    font-weight: bold;
+    color: #D84033;
+}
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    bottom: 0;
+    text-align: center;
+    padding: 80px;
+    width: 100%;
+}
+.footer h3 {
+    font-size: 30px;
+}
+.footer h4 {
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.footer-content {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .main-container {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .main-container h1 {
+        padding-top: 10px;
+    }
+    .main-container-prices {
+        right: 30px;
+        position: static;
+    }
+    .header a {
+        padding: 5px;
+    }
+}
