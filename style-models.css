@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f3f1f1;
+}
+body {
+    font-family: montserrat, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+}
+.header a:nth-child(4) {
+    font-weight: bold;
+    font-size: 24px;
+}
+.box {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+.collection {
+    padding: 60px 100px 95px 100px;
+    font-size: 24px;
+}
+.main-container img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.models-button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    /*border-bottom: 1px solid #D7B399;*/
+}
+.models-button-container span:first-child {
+    margin-right: 310px;
+    margin-top: -50px;
+}
+.models-button-container span:last-child {
+    margin-right: 310px;
+    margin-top: -50px;
+}
+.models-button {
+    font-size: 36px;
+    padding: 10px 50px;
+    background: #D7B399;
+    color: white;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-container img {
+    object-fit: cover;
+    width: 400px;
+    height: 310px;
+}
+.card-container-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card-container-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: initial;
+}
+.card-container-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.button {
+    border: none;
+    background: #D7B399;
+    color: #f3f1f1;
+    padding: 10px 15px;
+}
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    bottom: 0;
+    text-align: center;
+    padding: 80px;
+}
+.footer-content {
+    color: white;
+    background-color: black;
+    font-size: 28px;
+    font-weight: initial;
+}
+#email {
+    border: none;
+    padding: 7px 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footer-button {
+    padding: 5px 15px;
+    border: none;
+    background: #D7B399;
+    color: #f3f1f1;
+    text-decoration: none;
+}

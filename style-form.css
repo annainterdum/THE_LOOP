@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("https://img.brandshop.ru/cache/products/1/1201a067-202-0_552x552.jpg");
+    font: 14px sans-serif;
+    color: black;
+    font-family: montserrat, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 15px;
+    color: black;
+    font-size: 14px;
+}
+.header a:nth-child(4) {
+    font-weight: bold;
+    font-size: 24px;
+}
+.box {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+}
+.form {
+    background: #D7B399;
+    padding: 26px 46px;
+    width: 600px;
+    margin: 82px auto 0;
+}
+.form-header {
+    font-size: 50px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+.input {
+    margin-bottom: 15px;
+}
+.input > label {
+    display: block;
+    margin: 0 0 3px 6px;
+    font-size: 16px;
+}
+.star {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.star-checkbox {
+    margin-top: 2px;
+}
+.input > input {
+    width: 100%;
+    padding: 6px 15px;
+    border: 2px solid #787878;
+    font-size: 28px;
+}
+input::placeholder {
+    color: #CCCCCC;
+}
+.input.error  {
+    color: red;
+}
+.checkbox.error > .star {
+    color: red;
+}
+.error-checkbox {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -30px;
+    color: red;
+}
+.checkbox_window {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border: 2px solid;
+}
+.checkbox-label {
+    position: absolute;
+    margin-top: 5px;
+}
+.button {
+    display: block;
+    padding: 18px 18px;
+    background: #f3f1f1;
+    border: none;
+    color: black;
+    font-size: 24px;
+    margin: 56px auto 0;
+    cursor: pointer;
+}
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    bottom: 0;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: initial;
+}
+.footer-link {
+    /*display: block;*/
+    text-decoration: none;
+    color: #f3f1f1;
+    /*padding-top: 30px;*/
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+    .form {
+        width: 100%;
+        padding: 38px 45px 242px;
+        margin: 0;
+    }
+    .header {
+        font-size: 40px;
+        margin-bottom: 17px;
+    }
+}
